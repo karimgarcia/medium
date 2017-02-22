@@ -1,0 +1,70 @@
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: #4C4C4C;
+  margin:0;
+  }
+
+h1,h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(150,150,150 )
+
+}
+.banner h1 {
+  font-size:40px;
+  line-height: 60px;
+  color: white;
+
+}
+
+a {
+  text-decoration: none;
+  color:#4C4C4C;
+}
+
+.banner {
+  background-image: url('http://www.lorempixel.com/800/600');
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.container {
+  margin: 30px auto;
+}
+
+.link_medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  font-style: italic;
+  font-size: 25px;
+}
+
+.link_medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 255, 179, 1), rgba(125, 255, 179, 1));
+}
+
+@media(min-width: 320px) {
+  .container {
+    width: 250px ;
+  }
+}
+
+@media(min-width: 720px) {
+  .container {
+    width: 500px ;
+  }
+}
+
+@media(min-width: 900px) {
+  .container {
+    width: 750px ;
+  }
+}
+
+
